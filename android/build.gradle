@@ -99,6 +99,9 @@ android {
         }
 
         debug {
+            minifyEnabled true
+            shrinkResources true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-project.txt'
             multiDexEnabled true
         }
     }
